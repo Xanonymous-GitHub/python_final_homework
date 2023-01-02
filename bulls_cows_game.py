@@ -94,6 +94,9 @@ class BullsCowsGame:
             except KeyboardInterrupt:
                 print("\nBye!")
                 raise SystemExit
+            except EOFError:
+                print("\nBye!")
+                raise SystemExit
 
 
 if __name__ == '__main__':
